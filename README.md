@@ -3,7 +3,7 @@ GitHub 저장소의 특정 폴더를 터미널에서 즉시 다운로드할 수 
 ## 설치 방법 (Linux / macOS)
 아래 명령어를 복사하여 터미널에 입력하면 시스템 어디서나 `gitdown` 명령어를 사용할 수 있습니다.
 ```bash
-sudo curl -L https://raw.githubusercontent.com/purndal/gitdown/master/gitdown.py -o /usr/local/bin/gitdown
+sudo curl -L https://raw.githubusercontent.com/purndal/gitdown/main/gitdown.py -o /usr/local/bin/gitdown
 sudo chmod +x /usr/local/bin/gitdown
 ```
 ## 사용 방법
