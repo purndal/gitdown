@@ -1,16 +1,17 @@
 # GitDown CLI
-GitHub 특정 폴더를 터미널에서 즉시 다운로드하는 도구입니다.
-### 🚀 한 줄 설치 (Linux/macOS)
-```bash
-sudo curl -L https://raw.githubusercontent.com/purndal/gitdown/master/gitdown.py -o /usr/local/bin/gitdown && sudo chmod +x /usr/local/bin/gitdown
-```
-### 2. 업로드 시 팁
-- **파일 이름**: 저장소에 올릴 때 `gitdown.py`로 올리셔도 되고, 위 명령어처럼 다운로드할 때 이름을 `gitdown`으로 바꿔서 저장하게 설정하면 더욱 깔끔합니다.
-- **설명**: 이미지에 적어주신 "gitdown python app" 설명도 아주 적절합니다! (오타인 `ditdown`만 `gitdown`으로 살짝 고쳐주시면 완벽할 것 같아요.)
-### 3. 나중에 다운로드할 때 쓸 명령어
-나중에 다른 리눅스 서버나 컴퓨터에서 이 프로그램을 가져오고 싶을 때, 터미널에 이것만 입력하면 됩니다:
-```bash
-# purndal님의 저장소에서 직접 가져오기
+GitHub 저장소의 특정 폴더를 터미널에서 즉시 다운로드할 수 있는 파이썬 도구입니다.
+## 설치 방법 (Linux / macOS)
+아래 명령어를 복사하여 터미널에 입력하면 시스템 어디서나 `gitdown` 명령어를 사용할 수 있습니다.
 sudo curl -L https://raw.githubusercontent.com/purndal/gitdown/master/gitdown.py -o /usr/local/bin/gitdown
 sudo chmod +x /usr/local/bin/gitdown
-```
+## 사용 방법
+터미널에서 `gitdown` 뒤에 다운로드하고 싶은 GitHub 폴더의 주소를 입력합니다.
+gitdown [GitHub 폴더 주소]
+### 예시
+gitdown https://github.com/ONLYOFFICE/core-fonts/tree/master/droid
+## 주요 특징
+- 브라우저 없이 터미널에서 즉시 실행 가능합니다.
+- ZIP 압축 없이 폴더 구조 그대로 현재 위치에 다운로드합니다.
+- 별도의 라이브러리 설치가 필요 없는 순수 파이썬 스크립트입니다.
+## 요구 사항
+- Python 3.x
